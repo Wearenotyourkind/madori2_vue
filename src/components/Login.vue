@@ -1,7 +1,7 @@
 /* template */
 <template>
   <div id="login">
-  	<div> <img :src="entryPicture" width="350" height="350"/> </div>
+  	<div> <img :src="entryPicture" width="500" height="500"/> </div>
  	<div style= "padding:20px">
  		<font color="blue"> <h1> {{ greeting }} </h1></font>
  		
@@ -27,7 +27,7 @@ import Vue from 'vue'
 import axios from 'axios'
 
 Vue.component('component1', { template: 
-	"<div> <font color='red'> <h2>  GNJ </h2></font> </div>"
+	"<div> <font color='red'> <h2>  kpojpoyf </h2></font> </div>"
 });
 
 let local_cmp = {
